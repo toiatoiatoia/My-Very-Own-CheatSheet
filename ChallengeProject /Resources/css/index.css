@@ -1,0 +1,138 @@
+html, body {
+    background-color: white;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+* {
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    background-color: rgb(29, 29, 31);
+    padding: 30px;
+    width: 100%;
+}
+
+nav li {
+    font-family: 'Noto Sans Mono';
+    font-size: 25px;
+    display: inline-block;
+    background-color: rgb(29, 29, 31);
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container {
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    margin: 0;
+}
+
+.jumbotron {
+    background-image: url(/Resources/IMAGES/coveroption2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+main h1 {
+    color: white;
+    font-family: 'Noto Sans Mono';
+    font-weight: 600;
+    font-size: 70px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+footer {
+    background-color: rgb(29, 29, 31);
+    width: 100%;
+    text-align: center;
+    padding: 20px 10px;
+    top: 20px;
+    left: 0;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-family: 'Noto Sans Mono';
+}
+
+
+p, li{
+    text-align: left;
+    font-family: 'Barrow Condensed';
+}
+
+button:hover {
+    background-color: cadetblue;
+}
+
+table, th, td {
+    text-align: center;
+    border: 1px solid;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+
+#HTML {
+    padding-left: 10px;
+    font-family: 'Barrow Condensed';
+    text-align: center;
+}
+
+#CSS {
+    padding-left: 10px;
+    text-align: center;
+    font-family: 'Barrow Condensed';
+}
+
+.work {
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.front {
+    text-align: center;
+    font-family: 'Barlow Condensed';
+}
+
+button {
+    color: white;
+    background-color: rgb(9, 53, 120);
+    font-size: large;
+    font-family: 'Anta';
+    letter-spacing: 2px;
+    padding: 5px 10px;
+}
+
+
+
+
+
+
